@@ -14,20 +14,20 @@ generateBtn.addEventListener("click", writePassword);
 function generatePassword() {
 
   // prompt user to add password criteria
-  var minLen = prompt("Specify the min lenght for the password, it should not be less than 8 characters:")
+  var minLen = prompt("Password should not be less than 8 characters.")
   if (minLen < 8) {
-    alert('Please specify a min length of at least 8 characters')
-    minLen = prompt("Specify the min lenght for the password, it should not be less than 8 characters:")
+    alert('A minium length of at least 8 characters')
+    minLen = prompt("Specify the minimum lenght for the password, it should not be less than 8 characters.")
   }
-  var maxLen = prompt("Specify the max lenght for the password, it should be up to 128 characters:")
+  var maxLen = prompt("Specify the maximum lenght for the password, it should be up to 128 characters.")
   if (maxLen > 128) {
-    alert('Please specify a max length up to 128 characters')
-    maxLen = prompt("Specify the max lenght for the password, it should be up to 128 characters:")
+    alert('A maximum length up to 128 characters')
+    maxLen = prompt("Specify the maximum lenght for the password, it should be up to 128 characters.")
 
   }
-  var specialChars = prompt("Must include a special character:")
-  var isNumIncluded = prompt("Is a number included?, type yes or no")
-  var isUpperCase = prompt("Is uppercase character included?, type yes or no")
+  var specialChars = prompt("Must include a special character.")
+  var isNumIncluded = prompt("Must include a number.")
+  var isUpperCase = prompt("Must include an uppercase character. ")
 
 
 
