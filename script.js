@@ -27,7 +27,7 @@ function generatePassword() {
   }
   var specialChars = prompt("Must include a special character.")
   var isNumIncluded = prompt("Must include a number.")
-  var isUpperCase = prompt("Must include an uppercase character. ")
+  var isUpperCase = prompt("Must include an UPPERrcase character. ")
 
 
 
