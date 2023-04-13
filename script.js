@@ -27,14 +27,14 @@ function generatePassword() {
   }
   var specialChars = prompt("Must include a special character.")
   var isNumIncluded = prompt("Must include a number.")
-  var isUpperCase = prompt("Must include an UPPERrcase character. ")
+  var isUpperCase = prompt("Must include an UPPERcase character. ")
 
 
 
   // generate random length between minLen and maxLen
   var passwordLen = Math.round(Math.random() * 10 + (maxLen - minLen))
   // random characters that are included in the password
-  const lowerCaseCharacters = 'abcdefghijklmnopqrstuvwxyz'
+  const lowerCaseCharacters = 'Actually1!'
 
 
   // generate password
